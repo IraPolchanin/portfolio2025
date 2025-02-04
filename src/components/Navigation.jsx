@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import heartLogo from '../assets/heart-logo.jpg';
 import '../styles/Navigation.css';
 
 function Navigation() {
@@ -13,7 +14,8 @@ function Navigation() {
     <nav className="navbar navbar-expand-lg bg-white">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src="/images/heart-logo.jpg" className="logo" alt="logo-StandWithUkraine" title="Help Ukraine against Russian aggression" />
+          {/* <img src="/images/heart-logo.jpg" className="logo" alt="logo-StandWithUkraine" title="Help Ukraine against Russian aggression" /> */}
+          <img src={heartLogo} className="logo" alt="logo-StandWithUkraine" title="Help Ukraine against Russian aggression" />
         </Link>
         <button 
           className="navbar-toggler" 
