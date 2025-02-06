@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import myPhoto from '../assets/photo_Polchaninova.jpeg';
 
 function About() {
   return (
@@ -20,10 +21,10 @@ function About() {
             </Link>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 d-flex align-items-center">
           <img 
-            className="img-fluid rounded" 
-            src="/images/photo_Polchaninova.jpeg" 
+            className="img-fluid rounded w-75" 
+            src={myPhoto} 
             alt="Iryna Polchaninova" 
           />
         </div>

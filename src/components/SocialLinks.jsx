@@ -3,9 +3,9 @@ import React from 'react';
 function SocialLinks() {
   const socialLinks = [
     {
-      icon: 'fa-brands fa-instagram',
-      href: 'https://www.instagram.com/polchaninovairina/',
-      title: 'Instagram Profile'
+      icon: 'fa-brands fa-linkedin',
+      href: 'https://www.linkedin.com/in/iryna-polchaninova-b191b3268/',
+      title: 'LinkedIn Profile'
     },
     {
       icon: 'fa-brands fa-github',

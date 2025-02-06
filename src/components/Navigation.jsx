@@ -17,19 +17,22 @@ function Navigation() {
           {/* <img src="/images/heart-logo.jpg" className="logo" alt="logo-StandWithUkraine" title="Help Ukraine against Russian aggression" /> */}
           <img src={heartLogo} className="logo" alt="logo-StandWithUkraine" title="Help Ukraine against Russian aggression" />
         </Link>
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav" 
-          aria-expanded="false" 
+          aria-controls="navbarNav"
+          aria-expanded="false"
           aria-label="Toggle navigation"
           onClick={handleNavCollapse}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
+        <div
+          className={`navbar-collapse ${isNavCollapsed ? 'collapse' : ''}`}
+          id="navbarNav"
+        >
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className={isActive('/')} to="/" title="Homepage">Home</Link>

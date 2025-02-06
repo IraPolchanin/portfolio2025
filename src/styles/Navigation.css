@@ -72,3 +72,21 @@
     padding-left: 0.5rem;
   }
 }
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Optional: adds space between nav items */
+  }
+
+  .nav-item {
+    display: block;
+  }
+}
