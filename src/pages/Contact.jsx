@@ -28,7 +28,7 @@ function Contact() {
       link: 'https://t.me/PolchaninovaIrina'
     },
     {
-      title: 'Scype',
+      title: 'Skype',
       value: 'Iryna Polchaninova',
       link: 'live:.cid.7f4338400c48f5cc'
     },
